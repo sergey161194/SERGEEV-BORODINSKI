@@ -3,14 +3,18 @@
 
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Барбершоп «Бородинский»</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="inner-page">
+
     <heder class="main-hader">
         <nav class="main-navigator">
             <a class="main-header-logo" href="index.html">
-                <img src="img/index-logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»" />
+                <img src="img/shop/logo.png" width="111" height="24" alt="Логотип барбершопа «Бородинский»" />
             </a>
             <ul class="site-navigation">
                 <li><a href="info.html">Информация</a></li>
@@ -26,6 +30,7 @@
             </ul>
         </nav>
     </heder>
+
     <main class="container">
         <h1 class="page-title">Средства для ухода</h1>
 
@@ -74,7 +79,7 @@
 
                         <li class="filter-option">
                             <input class="visally-hidden filter-input-checkbox" type="checkbox" name="murrays"
-                                id="filter-murrays">
+                                id="filter-murrays" disabled>
                             <label for="filter-murrays">
                                 Murray's
                             </label>
@@ -245,6 +250,7 @@
             <a class="button" href="https://htmlacademy.ru">HTML Academy </a>
         </p>
     </footer>
+    
     <section class="modal modal-login">
         <h2>Личный кабинет</h2>
         <p>Введите логин и пароль</p>
